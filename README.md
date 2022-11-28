@@ -43,9 +43,19 @@ window.onresize = function (event) {
 
 By importing this README via:
 
-`import: https://raw.githubusercontent.com/LiaTemplates/Fullscreen/main/README.md`
+`import: https://raw.githubusercontent.com/LiaTemplates/Fullscreen/0.0.1/README.md`
 
-into your document, an event listener will be added automatically to your course, which will hide the main nav bar of your course when you get into fullscreen mode by hitting <kbd>F11</kbd>.
+into your document header, as it is shown below, an event listener will be added automatically to your course, which will hide the main nav bar of your course when you get into fullscreen mode by hitting <kbd>F11</kbd>.
+
+``` markdown
+<!--
+author:   ...
+
+import: https://raw.githubusercontent.com/LiaTemplates/Fullscreen/0.0.1/README.md
+-->
+
+# Main Title
+```
 
 ## Implementation
 
